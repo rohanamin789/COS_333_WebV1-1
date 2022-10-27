@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Registrar's Office Class Search</title>
+    </head>
+    <body>
+       <h1>Registrar's Office</h1>
+       <h2>Class Search</h2>
+       <hr>
+    
+       <form action="" method="get">
+          <table>
+             <tr>
+             <td align="right">Dept:</td>
+             <td><input type="text" name="dept" value=""><br></td>
+             </tr>
+    
+             <tr>
+             <td align="right">Number:</td>
+             <td>
+                <input type="text" name="course_number"
+                   value=""><br>
+             </td>
+             </tr>
+    
+             <tr>
+             <td align="right">Area:</td>
+             <td><input type=text name=area value=""><br></td>
+             </tr>
+    
+             <tr>
+             <td align="right">Title:</td>
+             <td>
+                <input type="text" name="title" value=""><br>
+             </td>
+             </tr>
+    
+             <tr>
+             <td></td>
+             <td><input type="submit" value="Go"></td>
+             </tr>
+    
+          </table>
+       </form>
+    
+       <hr>
+    
+       <table>
+          <tr>
+             <td><strong>ClassId</strong></td>
+             <td><strong>Dept</strong></td>
+             <td><strong>Num</strong></td>
+             <td><strong>Area</strong></td>
+             <td><strong>Title</strong></td>
+          </tr>
+
+
+      <table>
+         <tr> <PRE STYLE=”font-family: Georgia; font-size: 12pt; color: #000099;”>
+            {{search_results}}
+         </PRE>
+            
+         </tr>
+      </table>
+</html>
